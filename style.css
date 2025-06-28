@@ -1,45 +1,71 @@
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+  color: #333;
 }
+
 header {
-    background: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+  background-color: #004aad;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
 }
-nav a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
+
+header nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
 }
-nav a:hover {
-    text-decoration: underline;
+
+header nav a:hover {
+  text-decoration: underline;
 }
-.hero {
-    background: #0099ff;
-    color: white;
-    padding: 60px 20px;
-    text-align: center;
+
+.templates {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
 }
-.btn {
-    background: white;
-    color: #0099ff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
+
+.template {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-.services, section {
-    padding: 20px;
-    background: white;
-    margin: 20px;
-    border-radius: 8px;
+
+.template h2 {
+  margin-top: 0;
+  color: #004aad;
 }
+
+.template p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.template a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #004aad;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.template a:hover {
+  background-color: #003075;
+}
+
 footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
+  text-align: center;
+  padding: 15px 0;
+  background-color: #222;
+  color: white;
+  margin-top: 40px;
 }
